@@ -4,7 +4,11 @@ import { LoginPageComponent } from 'src/app/modules/auth/components/login-page/l
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'login',
+    component: LoginPageComponent
+  },
+  {
+    path: 'register',
     component: LoginPageComponent
   }
 ];
